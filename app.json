@@ -1,0 +1,30 @@
+{
+  "name": "𝐐𝐔𝐄𝐄𝐍 𝐑𝐄𝐃 𝐂𝐇𝐔𝐓𝐈 𝐌𝐃 𝐕1",
+  "description": "Premium WhatsApp Web Session Generator",
+  "logo": "https://files.catbox.moe/fwykff.jpeg",
+  "repository": "https://github.com/madushanka/madushanka-md-mini",
+  "keywords": [
+    "𝐐𝐔𝐄𝐄𝐍𝐑𝐄𝐃𝐂𝐇𝐔𝐓𝐈",
+    "MD",
+    "MINI",
+    "BOT"
+  ],
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    }
+  ],
+  "env": {
+    "PORT": {
+      "description": "Port for web app.4000,5000,3000... any!",
+      "value": "5000",
+      "required": false
+    },
+    "MESSAGE": {
+      "description": "Just Leave This Blank",
+      "value": "",
+      "required": false
+    }
+  }
+}
